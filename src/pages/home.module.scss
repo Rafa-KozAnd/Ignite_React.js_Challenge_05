@@ -1,1 +1,50 @@
-// TODO
+.home_container {
+    width: 100%;  
+  
+    &:not(:first-child) {
+      margin-top: 48px;
+    }
+  
+    p {
+      margin: 0.5rem 0;
+      color: var(--body);
+    }
+  
+    .title {
+      color: var(--heading);
+    }
+  
+    .details {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      
+      .details_container {
+        display: flex;
+        line-height: 2.5rem;
+        align-items: center;
+        margin-right: 1.5rem;
+        
+        color: var(--info);
+  
+        span {
+          font-size: 0.8rem;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  
+  }
+  
+  .button_container {
+    margin: 3rem 0;
+    
+    .load_button {
+      cursor: pointer;
+      color: var(--highlight);
+      background: none;
+      outline: none;
+      border: none;
+    }
+  }

@@ -1,1 +1,12 @@
-// TODO
+.header {
+    line-height: 6.525rem;
+    
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+  
+      a {
+        cursor: pointer;
+      }
+    }
+  }

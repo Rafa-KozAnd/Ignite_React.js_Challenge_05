@@ -1,1 +1,57 @@
-// TODO
+.header {
+    max-height: 400px;
+    width: 100%;
+    margin-bottom: 80px;;
+  
+    img {
+      max-height: inherit;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .title {
+    color: var(--heading);
+  }
+  
+  .details_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 3.5rem;
+    
+    .details {
+      margin-right: 1.5rem;
+      display: flex;
+      align-items: center;
+      color: var(--info);
+  
+      span {
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
+  .body_content {
+  
+    .heading_content {
+  
+      &:not(:first-child) {
+        margin: 3.5rem 0;
+      }
+  
+      h3 {
+        margin: 2.5rem 0;
+        color: var(--heading);
+      }
+    
+      p {
+        margin: 0.5rem 0;
+        text-align: justify;
+        color: var(--body);
+      }
+    }
+  }
